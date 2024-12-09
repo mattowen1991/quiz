@@ -1,5 +1,5 @@
 // Easter Egg in the Console
-console.log('%cMarta is watching... 🎄', 'color: green; font-size: 20px; font-weight: bold;');
+console.log('%cCarful! Marta is checking your answers... 👀', 'color: green; font-size: 20px; font-weight: bold;');
 
 // Initial Scores
 const scores = [
