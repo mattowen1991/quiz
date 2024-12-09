@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProdPad Christmas Quiz!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/grinch.png">
+</head>
+<body>
+  <header class="header">
+    <h1>It's Quizzzmasssss 🎄👩‍💻</h1>
+    <p>Did you really know that answer, or did you Google it?</p>
+  </header>
+
+  <main>
+    <section class="how-it-happened">
+      <h2>How Marta Stole the Gift of the Christmas Quiz</h2>
+      <div class="timeline">
+        <div class="step">1. Opened the DevTools (<code>Ctrl+Shift+I</code>)</div>
+        <div class="step">2. Inspected the Quiz Code</div>
+        <div class="step">3. Grabbed answers via <code>console.log</code></div>
+        <div class="step">4. Walked away victorious</div>
+      </div>
+    </section>
+
+    <section class="quiz-scores">
+      <h2>Christmas Quiz Scores 🎅</h2>
+      <table id="score-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic rows will be added here -->
+        </tbody>
+      </table>
+      <button id="add-score-btn">Add New Score</button>
+      <p id="winner-message"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Powered by Christmas cookies. Clear them before Marta clears your score! 🍪</p>
+    <p>404: Marta stole this page too.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
