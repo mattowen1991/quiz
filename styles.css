@@ -6,7 +6,7 @@ body {
   padding: 0;
   background: linear-gradient(to bottom, #ffefba, #ffffff); /* Golden glow */
   color: #333;
-  background-image: url('https://www.transparenttextures.com/patterns/ps-neutral.png'); /* Subtle Christmas pattern */
+  background-image: url('assets/holiday.png'); /* Subtle Christmas pattern */
 }
 
 header {
