@@ -9,6 +9,7 @@ const scores = [
   { name: 'Sam', score: 2 },
   { name: 'Simon', score: 0 },
   { name: 'Bozena', score: 0 },
+  { name: 'Julie', score: 0 },
   { name: 'Ira', score: 1 },
   { name: 'Tomsaz', score: 1 }
 ];
