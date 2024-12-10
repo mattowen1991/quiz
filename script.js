@@ -1,5 +1,5 @@
 // Easter Egg in the Console
-console.log('%cCareful! Marta is checking your answers... 👀', 'color: green; font-size: 20px; font-weight: bold;');
+console.log('%cCareful! Marta is checking your answers... 👀.....and Sam is fact-checking them, and Ira has questions about them, and so does Wills, and Danielle wants to query them, and Bozena doesn't agree with the size of a Christmas tree blah blah blah', 'color: green; font-size: 20px; font-weight: bold;');
 
 // Initial Scores
 const scores = [
