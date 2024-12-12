@@ -3,12 +3,12 @@ console.log('%cCareful! Marta is checking your answers... 👀 and Sam is fact c
 
 // Initial Scores
 const scores = [
-  { name: 'Marta', score: 4 },
+  { name: 'Marta', score: 5 },
   { name: 'Wills', score: 0 },
   { name: 'Danielle', score: 1 },
   { name: 'Sam', score: 3 },
   { name: 'Simon', score: 0 },
-  { name: 'Bozena', score: 0 },
+  { name: 'Bozena', score: 1 },
   { name: 'Julie', score: 1 },
   { name: 'Ira', score: 1 },
   { name: 'Tomsaz', score: 1 }
