@@ -8,7 +8,7 @@ const scores = [
   { name: 'Danielle', score: 2 },
   { name: 'Sam', score: 4 },
   { name: 'Simon', score: 0 },
-  { name: 'Bozena', score: 3 ⭐ },
+  { name: 'Bozena', score: 3 },
   { name: 'Julie', score: 2 },
   { name: 'Ira', score: 2 },
   { name: 'Tomsaz', score: 1 }
