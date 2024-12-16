@@ -1,5 +1,13 @@
 // Easter Egg in the Console
-console.log('%cCareful! Marta is checking your answers... 👀 and Sam is fact checking them \ and Danielle is fact checking Sam \ and Ira has questions \ and so does Wills \ and Bozena disagrees with the size of the Christmas Tree 🎄 blah blah blah', 'color: green; font-size: 20px; font-weight: bold;');
+console.log(
+  '%cStop right there! Snoop on the Stoop is watching you! 🎅 If you try to cheat, you\'ll get coal!',
+  'color: red; font-size: 18px; font-weight: bold; background: black; padding: 5px;'
+);
+
+console.log(
+  '%cP.S. The answer to the question is "Seven Swans a-Swimming" 🦢.',
+  'color: green; font-size: 16px;'
+);
 
 // Initial Scores
 const scores = [
