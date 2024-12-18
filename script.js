@@ -11,10 +11,10 @@ console.log(
 
 // Initial Scores
 const scores = [
-  { name: 'Marta', score: 5 },
-  { name: 'Wills', score: 0 },
-  { name: 'Danielle', score: 4 },
-  { name: 'Sam', score: 4 },
+  { name: 'Marta', score: 6 },
+  { name: 'Wills', score: 1 },
+  { name: 'Danielle', score: 10 },
+  { name: 'Sam', score: 5 },
   { name: 'Simon', score: 0 },
   { name: 'Bozena', score: 3 },
   { name: 'Julie', score: 2 },
