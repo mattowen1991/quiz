@@ -5,7 +5,7 @@ console.log(
 );
 
 console.log(
-  '%cP.S. The answer to the question is "Seven Swans a-Swimming" 🦢.',
+  '%cP.S. The answer to the question is "Green" 👹.',
   'color: green; font-size: 16px;'
 );
 
