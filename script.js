@@ -13,7 +13,7 @@ console.log(
 const scores = [
   { name: 'Marta', score: 5 },
   { name: 'Wills', score: 0 },
-  { name: 'Danielle', score: 2 },
+  { name: 'Danielle', score: 4 },
   { name: 'Sam', score: 4 },
   { name: 'Simon', score: 0 },
   { name: 'Bozena', score: 3 },
