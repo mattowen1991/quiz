@@ -71,13 +71,3 @@ function determineWinner() {
 
 // Initial rendering of the score table
 renderScoreTable();
-
-// Simple Animation for Timeline Steps
-const timelineSteps = document.querySelectorAll('.timeline .step');
-timelineSteps.forEach((step, index) => {
-  setTimeout(() => {
-    step.style.transform = 'scale(1.1)';
-    step.style.transition = 'transform 0.3s';
-    setTimeout(() => step.style.transform = 'scale(1)', 300);
-  }, index * 500);
-});
