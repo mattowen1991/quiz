@@ -6,6 +6,33 @@ console.log(
 
   console.log('%cP.S. There isn\'t an answer here anymore, so why are you here? Knew it, you CHEAT! 👹', 'color: green; font-size: 16px;');
 
+// Music Control Logic
+const music = document.getElementById('background-music');
+const playButton = document.getElementById('play-music');
+const pauseButton = document.getElementById('pause-music');
+const muteButton = document.getElementById('mute-music');
+
+// Play music
+playButton.addEventListener('click', () => {
+  music.play();
+});
+
+// Pause music
+pauseButton.addEventListener('click', () => {
+  music.pause();
+});
+
+// Mute/Unmute music
+muteButton.addEventListener('click', () => {
+  if (music.muted) {
+    music.muted = false;
+    muteButton.textContent = '🔇 Mute Music';
+  } else {
+    music.muted = true;
+    muteButton.textContent = '🔊 Unmute Music';
+  }
+});
+
 // Initial Scores
 const scores = [
   { name: 'Marta', score: 6 },
