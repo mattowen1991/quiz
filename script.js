@@ -5,8 +5,6 @@ console.log(
 );
 
   console.log('%cP.S. There isn\'t an answer here, so why are you here? Knew it, you CHEAT! 👹', 'color: green; font-size: 16px;');
-  'color: green; font-size: 16px;'
-);
 
 // Initial Scores
 const scores = [
