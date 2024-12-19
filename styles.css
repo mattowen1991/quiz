@@ -30,6 +30,46 @@ header p {
   font-style: italic;
 }
 
+/* Music Controls Section */
+.music-controls {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: linear-gradient(to bottom, #ffefba, #ffafbd); /* Festive gradient */
+  border: 3px solid #a5243d; /* Red border */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.music-controls h2 {
+  font-size: 1.5rem;
+  color: #2a7f44; /* Festive green */
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.music-btn {
+  font-size: 1.2rem;
+  color: white;
+  background: #a5243d; /* Red button */
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.music-btn:hover {
+  background: #2a7f44; /* Green hover effect */
+  transform: scale(1.1);
+}
+
+.music-btn:active {
+  transform: scale(1);
+}
+
 /* Sections */
 main {
   padding: 2rem 1rem;
