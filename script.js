@@ -4,8 +4,7 @@ console.log(
   'color: red; font-size: 18px; font-weight: bold; background: black; padding: 5px;'
 );
 
-console.log(
-  '%cP.S. There isn't an answer here, so why are you here? New it, you CHEAT! 👹".',
+  console.log('%cP.S. There isn\'t an answer here, so why are you here? Knew it, you CHEAT! 👹', 'color: green; font-size: 16px;');
   'color: green; font-size: 16px;'
 );
 
