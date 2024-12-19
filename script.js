@@ -5,7 +5,7 @@ console.log(
 );
 
 console.log(
-  '%cP.S. The answer to the question is "Green" 👹.',
+  '%cP.S. There isn't an answer here, so why are you here? New it, you CHEAT!" 👹.',
   'color: green; font-size: 16px;'
 );
 
