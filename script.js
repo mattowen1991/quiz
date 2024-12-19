@@ -90,7 +90,7 @@ function determineWinner() {
     return;
   }
   const winner = scores[0]; // Winner is the first player after sorting
-  winnerMessage.textContent = `👑 ${winner.name} has ${winner.score} points and will be the Christmas Queen! Stop her before she wins!`;
+  winnerMessage.textContent = `👑 ${winner.name} has ${winner.score} points and has won the quiz! The rest of you suck and get snoop dogg coal!`;
 }
 
 // Initial rendering of the score table
