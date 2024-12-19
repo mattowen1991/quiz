@@ -35,9 +35,9 @@ muteButton.addEventListener('click', () => {
 
 // Initial Scores
 const scores = [
-  { name: 'Marta', score: 6 },
+  { name: 'Marta', score: 10 },
   { name: 'Wills', score: 1 },
-  { name: 'Danielle', score: 10 },
+  { name: 'Danielle', score: 15 },
   { name: 'Sam', score: 5 },
   { name: 'Simon', score: 0 },
   { name: 'Bozena', score: 3 },
